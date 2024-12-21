@@ -3,7 +3,7 @@
     background-color: white;
 }
 img{
-    width: 100%;
+    width: 30%;
 }
 .zagolovok{
     color: rgb(240, 212, 159);
@@ -21,7 +21,7 @@ img{
 }
 #buy{
     font: 1.5em sans-serif;
-    width: 100%;
+    width: 30%;
     color: gold;
     flex-shrink: 0;
     background-color: rgb(70, 70, 70);
