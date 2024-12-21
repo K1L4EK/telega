@@ -7,7 +7,7 @@ img{
 }
 .zagolovok{
     color: rgb(240, 212, 159);
-    font: 3em sans-serif;
+    font: 2em sans-serif;
     font-family: "Russo One", serif;
     font-weight: 400;
     font-style: normal;
@@ -20,7 +20,7 @@ img{
     font-style: normal;
 }
 #buy{
-    font: 1.5em sans-serif;
+    font: 1em sans-serif;
     width: 30%;
     color: gold;
     flex-shrink: 0;
