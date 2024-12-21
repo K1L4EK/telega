@@ -21,8 +21,7 @@ img{
 }
 #buy{
     font: 1.5em sans-serif;
-    width: 50%;
-    height: 50%;
+    width: 100%;
     color: gold;
     flex-shrink: 0;
     background-color: rgb(70, 70, 70);
