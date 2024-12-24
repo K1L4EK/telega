@@ -7,14 +7,14 @@ img{
 }
 .zagolovok{
     color: rgb(240, 212, 159);
-    font: 2,8em sans-serif;
+    font: 2.2em sans-serif;
     font-family: "Russo One", serif;
     font-weight: 400;
     font-style: normal;
 }
 .text{
     color: rgb(240, 180, 70);
-    font: 1,3em sans-serif;
+    font: 1em sans-serif;
     font-family: "Russo One", serif;
     font-weight: 400;
     font-style: normal;
@@ -23,9 +23,20 @@ img{
     font: 1em sans-serif;
     width: 30%;
     color: gold;
-    flex-shrink: 0;
     background-color: rgb(70, 70, 70);
     border-radius: 10px;
     padding: 2px;
-    margin: 25px;
+    margin: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#form{
+    text-align: center;
+}
+.inp{
+    padding: 5px;
+    margin: 2px;
 }
