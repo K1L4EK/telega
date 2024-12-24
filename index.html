@@ -14,8 +14,29 @@
         <h1 class="zagolovok">Онлайн магазин</h1>
         <img src="one_piece.jpg" alt="">
         <p class="text">Добро пожаловать на мой сайт, этот проект не употреблен для основных целей</p>
-        <button id="buy" onclick="">Купить</button>
+        <button id="buy">Купить</button>
     </div>
+    <form id="form">
+        <input class="inp" type="text" placeholder="Имя" id="user_name"><br>
+        <input class="inp" type="text" placeholder="Email" id="user_name"><br>
+        <input class="inp" type="text" placeholder="Телефон" id="user_name"><br>
+        <button id="order">Оформить</button>
+    </form>
     <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+    <script>
+        let tg = window.Telegram.WebApp;
+        let buy = document.getElementById('buy')
+        let order = document.getElementById('order')
+
+        buy.addEventListener("click", () =>{
+            document.getElementById("main").style.display = 'none';
+            document.getElementById("form").style.display = 'block';
+            document.getElementById("user_name").value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.last_name;
+        });
+
+        order.addEventListener("click", () => {
+            tg.close();
+        });
+    </script>
 </body>
 </html>
